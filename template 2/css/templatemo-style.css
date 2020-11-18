@@ -593,31 +593,77 @@ header {
 
 
 
-/* Projects Style */
+/* Wedding Style */
 
-#projects {
+#w-projects {
   padding-left: 60px;
   padding-right: 60px;
   padding-bottom: 50px;
 }
 
-#projects .masonry {
+#w-projects .masonry {
   position: relative;
-  width: 100%;
+  width: 98%;
 }
 
-#projects .masonry .item img {
+#w-projects .masonry .item img {
   transition: all 1s;
   width: 100%;
   overflow: hidden;
   margin-bottom: 30px;
 }
 
-#projects .masonry .item img:hover {
+#w-projects .masonry .item img:hover {
   opacity: 0.5;
 }
 
+/* Lifestyle Style */
 
+#l-projects {
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 50px;
+}
+
+#l-projects .masonry {
+  position: relative;
+  width: 98%;
+}
+
+#l-projects .masonry .item img {
+  transition: all 1s;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+#l-projects .masonry .item img:hover {
+  opacity: 0.5;
+}
+
+/* Events Style */
+
+#e-projects {
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 50px;
+}
+
+#e-projects .masonry {
+  position: relative;
+  width: 98%;
+}
+
+#e-projects .masonry .item img {
+  transition: all 1s;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+#e-projects .masonry .item img:hover {
+  opacity: 0.5;
+}
 
 /* Video Presentation Style */
 
@@ -890,7 +936,7 @@ header {
   font-weight: 600;
   color: #fff;
   text-transform: capitalize;
-  background-color: #45489a;
+  background-color: #A4CAB1;
   display: inline-block;
   height: 44px;
   line-height: 24px;
@@ -1040,34 +1086,21 @@ header {
     right: 0;
   }
 
-  #projects {
+  #w-projects {
     padding-left: 15px;
     padding-right: 15px;
   }
 
-  #video {
+  #l-projects {
     padding-left: 15px;
     padding-right: 15px;
   }
 
-  #blog {
+  #e-projects {
     padding-left: 15px;
     padding-right: 15px;
   }
-
-  #blog .tabs a {
-    font-size: 13px;
-  }
-
-  #blog .tabgroup ul li img {
-    float: none;
-    width: 100%;
-    margin-bottom: 15px;
-  }
-  #blog .tabgroup ul li .text-content {
-    display: block;
-  }
-
+  
   #contact-content {
     padding-left: 15px;
     padding-right: 15px;
